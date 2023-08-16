@@ -3,8 +3,11 @@
 This is a simple api with connection to sqlite, with C# and .NET
 
 To execute:
-1. git clone del repository
-2. dotnet restore
+1. Clone this repository
+2. Restore dependencies:
+    ```
+    dotnet restore
+    ```
 3.  Install EF Core Tools:
     ```bash
     dotnet tool install --global dotnet-ef
@@ -17,4 +20,4 @@ To execute:
     ```bash
     dotnet ef database update
     ```
-6. dotnet build and dotnet run to execute app
+6. Execute `dotnet build` and `dotnet run` to execute app
